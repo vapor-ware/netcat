@@ -4,6 +4,6 @@ library identifier: 'vapor@master', retriever: modernSCM(
         remote: 'https://github.com/vapor-ware/ci-shared.git',
         credentialsId: 'vio-bot-gh'])
 
-helmfilePipeline([
+dockerBuildPipeline([
     "image": "vaporio/netcat",
 ])
