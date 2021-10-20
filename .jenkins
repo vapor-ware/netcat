@@ -1,5 +1,5 @@
  // Include this shared CI repository to load script helpers and libraries.
-library identifier: 'vapor@master', retriever: modernSCM(
+library identifier: 'vapor@1.19.2', retriever: modernSCM(
         [$class: 'GitSCMSource',
         remote: 'https://github.com/vapor-ware/ci-shared.git',
         credentialsId: 'vio-bot-gh'])
